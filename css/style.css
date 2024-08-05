@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #ffffff;
+}
+header{
+    background-color: #f8c0c9;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+h1, h2{
+    color: #000000;
+    padding: 10px;
+
+}
+header nav ul{
+    list-style-type: none;
+}
+header nav ul li{
+    margin: 20px;
+    display: inline-block;
+    padding: 0 20px;
+}
+header nav ul li a{
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px;
+}
+a:hover{
+    color: #ffffff;   
+}
+h1:hover{
+    color: #ffffff;
+    border-radius: blue 5px solid; 
+}
+main img{
+    width: 100vw;
+    height: 70vh;   
+}
+footer{
+    background-color: #f8c0c9;
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+
+}
+.subtitulo{
+    color: #000000;
+    text-align: left;
+    padding: 20px
+}
+p{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding: 20px;
+}
+.texto1{
+    width: 700px;
+    height: 300px;
+    margin:0 auto
+}
+.section-img{
+    text-align: center;
+
+}
+.subtitulo{
+    color: #000000;
+    text-align: left;
+    padding: 20px;
+}
+.formulario{
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    gap: 10px;
+}
+.large-img{
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+    margin: 80px;
+}
+h1{
+    font-family: "Peralta", serif;
+}
+h2{
+    font-family: "BioRhyme Expanded", serif;
+}
+p{
+    font-family: "Stint Ultra Condensed", serif;
+}
+.inline-div{
+    display: inline-block;
+    padding: 60px;
+    border: 2px solid #fefefe
+}
+.img-store{
+    border: 3px solid #0000ff;
+    width: 300px;
+    height: 250px;
+    margin: 80px;
+    opacity: .4;
+}
+.img-store:hover{
+    opacity: 1;
+    border: blue solid 3px;
+    border-radius: 10px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.main{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
