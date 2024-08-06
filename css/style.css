@@ -102,7 +102,7 @@ p{
 }
 .inline-div{
     display: inline-block;
-    padding: 60px;
+    padding: 5px;
     border: 2px solid #fefefe
 }
 .img-store{
@@ -117,7 +117,7 @@ p{
     border: blue solid 3px;
     border-radius: 10px;
 }
-.main{
+main{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -125,8 +125,10 @@ p{
 
 
 }
-.main{
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
 }
+
